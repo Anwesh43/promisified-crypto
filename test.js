@@ -11,3 +11,9 @@ promisifiedCrypto.getEncryptedData("hello world","anw123","hex").then((data)=>{
 }).catch((err)=>{
     console.log(err)
 })
+
+promisifiedCrypto.getDecryptedData("7197dab99c551b326683076b922c6df2","anw123","hex").then((data)=>{
+    console.log(data)
+}).catch((err)=>{
+    console.log(err)
+})
